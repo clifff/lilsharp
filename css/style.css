@@ -1,13 +1,6 @@
 
 body {
-background: #fefcea; /* Old browsers */
-background: -moz-radial-gradient(center, ellipse cover, #fefcea 0%, #f1da36 100%); /* FF3.6+ */
-background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#fefcea), color-stop(100%,#f1da36)); /* Chrome,Safari4+ */
-background: -webkit-radial-gradient(center, ellipse cover, #fefcea 0%,#f1da36 100%); /* Chrome10+,Safari5.1+ */
-background: -o-radial-gradient(center, ellipse cover, #fefcea 0%,#f1da36 100%); /* Opera 12+ */
-background: -ms-radial-gradient(center, ellipse cover, #fefcea 0%,#f1da36 100%); /* IE10+ */
-background: radial-gradient(center, ellipse cover, #fefcea 0%,#f1da36 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  background: url(/rain.gif);
 }
 
 .main {
@@ -22,9 +15,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', end
   margin: 0 auto;
   background: #fff;
   border: solid 1px #ccc;
--moz-box-shadow: 0px 0px 10px #f1da36;
--webkit-box-shadow: 0px 0px 10px #f1da36;
-box-shadow: 0px 0px 10px #f1da36;
 }
 
 h1, h2, h3 {
@@ -32,9 +22,12 @@ h1, h2, h3 {
   text-transform: uppercase;
   margin-bottom: 20px;
   font-size: 100px;
-  font-family: helvetica, arial, sans-serif;
+  font-family: impact, arial, sans-serif;
   text-align: center;
   line-height: 1.25em;
+  color: #FFF;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
 }
 
 
