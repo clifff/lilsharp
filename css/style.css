@@ -12,14 +12,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', end
 #main {
   text-align: center;
   padding: 50px;
+  width: 800px;
+  margin: 0 auto;
+}
+
+img {
+  border: solid 10px #fff;
 }
 
 h1, h2, h3 {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 20px;
-  font-size: 85px;
+  font-size: 75px;
   font-family: helvetica, arial, sans-serif;
+  text-align: center;
 }
 
 
