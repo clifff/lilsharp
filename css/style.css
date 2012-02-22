@@ -10,25 +10,31 @@ background: radial-gradient(center, ellipse cover, #fefcea 0%,#f1da36 100%); /* 
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
-#main {
+.main {
   text-align: center;
-  padding: 50px;
+  padding: 50px 50px 100px;
   width: 800px;
   margin: 0 auto;
 }
 
-#main img {
-  border: solid 10px #fff;
+.main img {
+  padding: 10px;
   margin: 0 auto;
+  background: #fff;
+  border: solid 1px #ccc;
+-moz-box-shadow: 0px 0px 10px #f1da36;
+-webkit-box-shadow: 0px 0px 10px #f1da36;
+box-shadow: 0px 0px 10px #f1da36;
 }
 
 h1, h2, h3 {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 20px;
-  font-size: 75px;
+  font-size: 100px;
   font-family: helvetica, arial, sans-serif;
   text-align: center;
+  line-height: 1.25em;
 }
 
 
