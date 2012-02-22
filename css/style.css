@@ -1,3 +1,4 @@
+
 body {
 background: #fefcea; /* Old browsers */
 background: -moz-radial-gradient(center, ellipse cover, #fefcea 0%, #f1da36 100%); /* FF3.6+ */
@@ -16,8 +17,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', end
   margin: 0 auto;
 }
 
-img {
+#main img {
   border: solid 10px #fff;
+  margin: 0 auto;
 }
 
 h1, h2, h3 {
@@ -28,6 +30,7 @@ h1, h2, h3 {
   font-family: helvetica, arial, sans-serif;
   text-align: center;
 }
+
 
 
 /* HTML5 Boilerplate  */
@@ -133,3 +136,9 @@ td { vertical-align: top; }
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
 }
+
+
+
+
+
+
